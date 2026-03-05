@@ -12,11 +12,11 @@ export default function Navbar() {
       className="sticky top-0 z-50 border-b border-neutral-200 bg-white/80 backdrop-blur-md"
     >
       <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-full bg-blue-800 text-lg font-bold text-white">
+        <Link href="/" className="flex items-center gap-2 group transition-transform hover:scale-105">
+          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-neutral-900 text-xl font-bold text-white shadow-soft">
             I
           </div>
-          <span className="text-lg font-semibold tracking-tight">Integron</span>
+          <span className="text-xl font-bold tracking-tight text-neutral-900">Integron</span>
         </Link>
 
         <div className="hidden items-center gap-8 md:flex">
